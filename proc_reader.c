@@ -9,8 +9,6 @@ int list_process_directories(void) {
         return -1;
     }
     
-    
-
     printf("Process directories in /proc:\n");
     printf("%-8s %-20s\n", "PID", "Type");
     printf("%-8s %-20s\n", "---", "----");
@@ -179,5 +177,5 @@ int is_number(const char* str) {
         str++;
     }
 
-    return 0;
+    return 1;
 }
